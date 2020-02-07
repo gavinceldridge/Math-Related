@@ -7,7 +7,7 @@ public class Sets {
 		double sum = 0;
 		sum+=.5;
 		
-		for(int i = 3; i<101; i++) {
+		for(int i = 2; i<101; i++) {
 			sum*=(i/i+1);
 		}
 		System.out.println(sum);
