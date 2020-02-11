@@ -1,0 +1,7 @@
+
+public class SimpsonsRule {
+	
+	//test
+	
+
+}
