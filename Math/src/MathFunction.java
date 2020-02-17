@@ -1,10 +1,19 @@
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SimpsonsRule {
+public class MathFunction {
+
+	protected final String FXN;
 	
-	public static void main(String[]args) {
+	public MathFunction(String fxn) {
+		FXN = fxn;
+		parse();
+	}
+	
+	private void parse() {
+		
+		
+		
 //		// String to be scanned to find the pattern.
 //	      String line = "This order was placed for QT3000! OK?";
 //	      String pattern = "(.*)(\\d+)(.*)";
@@ -22,23 +31,20 @@ public class SimpsonsRule {
 //	         System.out.println("NO MATCH");
 //	      }
 		
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.print("Enter Delta X: ");
-		float dx = scan.nextFloat();
-		
-		System.out.print("Enter N: ");
-		int n = scan.nextInt();
-		while(n%2==1) {
-			System.out.print("Uh oh, N must be divisible by 2, try again\nN: ");
-			n = scan.nextInt();
-		}
-		
-		System.out.print("Enter the function: ");
-		String fx = scan.nextLine();
+		Pattern pattern = Pattern.compile("")
 		
 		
 		
 	}
-
+	
+	
+	public int getYAtX(int x) {
+		
+		
+		
+		return(1);
+		
+	}
+	
+	
 }
